@@ -1,0 +1,64 @@
+body{
+    margin:auto;
+    background-color:whitesmoke;
+    font-family:'Agency FB';
+    font-size: 15px;
+}
+header{
+    max-width: 100%;
+    background-color:midnightblue;
+    text-align: center;
+    font-family:'Castellar';
+    color:floralwhite;
+    font-size: 15px;
+    border-style: double;
+    padding: 30px;
+}
+h1{
+    font-size: 1.5em;
+}
+
+header img{
+    max-width:20%;
+    border-radius: 200px;
+    width: 300px;
+    border: 10px solid whitesmoke;
+}
+h2{
+    font-family:'Castellar';
+    color:rgb(143, 3, 3);
+    font-size:15px;
+}
+main{
+    text-align: center;
+    max-width: 80%;
+    margin: 30px 100px;
+    padding: 0 20px;
+}
+main img{
+    max-width: 60%;
+}
+a{
+  color:darkblue;  
+}
+a:hover{
+    background-color: black;
+    color:darkgray;
+}
+footer{
+    text-align: center;
+}
+.button {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 14px;
+    font-family: 'Agency FB';
+    border: 2px solid #0e149a; /*dark blue*/
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #0e149a; /*dark blue*/
+    color: whitesmoke;
+}
